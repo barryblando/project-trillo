@@ -1,0 +1,37 @@
+.container {
+  // max-width so that the container can decrease if there's not enough space to display our 120rem
+  max-width: 120rem;
+  margin: 8rem auto; // center
+  background-color: var(--color-grey-light-1);
+  box-shadow: var(--shadow-dark);
+
+  // Test
+  min-height: 50rem;
+}
+
+.header {
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: var(--color-grey-light-2);
+}
+
+.content {
+  display: flex; // set parent display to flex
+}
+
+.sidebar {
+  background-color: var(--color-grey-dark-1);
+  // INFO: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
+  // flex: flex-grow flex-shrink flex-basis
+  // grow 0 - don't want to grow if there's some space
+  // shrink 0 - don't want to shrink if there's not enough space
+  // basis - width size of the element
+  flex: 0 0 18%;
+}
+
+.hotel-view {
+  background-color: orangered;
+  // grow to fill the remaining enough space as much as it can which is 82%
+  // 100 - 18 = 82%
+  flex: 1;
+}
