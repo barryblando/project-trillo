@@ -10,7 +10,7 @@ Your all-in-one booking app
 
 - Animations without Javascript
 
-- Flexbox-based Layout
+- Flexbox-based Layout. [More Info](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
 
 - NPM Scripts
 
@@ -38,3 +38,5 @@ Your all-in-one booking app
     <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
   </svg>
 ```
+
+## Flexbox Basics [To be updated...]
