@@ -10,9 +10,14 @@
 }
 
 .header {
+  font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--color-grey-light-2);
+
+  display: flex; // never forget to put this on a parent element
+  justify-content: space-between; // space-between in Main Axis left-right
+  align-items: center; // center items in Cross Axis top-bottom, so we won't use margin-top
 }
 
 .content {
