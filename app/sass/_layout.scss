@@ -13,7 +13,7 @@
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  border-bottom: var(--color-grey-light-2);
+  border-bottom: 1px solid var(--color-grey-light-2);
 
   display: flex; // never forget to put this on a parent element
   justify-content: space-between; // space-between in Main Axis left-right
@@ -44,6 +44,5 @@
   flex: 1;
 
   // TEST - Mimic Purposes
-  background-color: orangered;
   height: 80rem;
 }
