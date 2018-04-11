@@ -32,11 +32,18 @@
   // shrink 0 - don't want to shrink if there's not enough space
   // basis - width size of the element
   flex: 0 0 18%;
+
+  // Set Sidebar as column & divide available space between elements
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hotel-view {
-  background-color: orangered;
-  // grow to fill the remaining enough space as much as it can which is 82%
-  // 100 - 18 = 82%
+  // grow to fill the remaining enough space as much as it can which is 82%; 100 - 18 = 82%
   flex: 1;
+
+  // TEST - Mimic Purposes
+  background-color: orangered;
+  height: 80rem;
 }
