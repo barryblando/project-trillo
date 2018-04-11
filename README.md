@@ -10,7 +10,9 @@ Your all-in-one booking app
 
 - Animations without Javascript
 
-- Flexbox-based Layout. [More Info](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties)
+- Flexbox-based Layout.
+  - [ [A Visual Guide to CSS3 Flexbox Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties) ]
+  - [ [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) ]
 
 - NPM Scripts
 
