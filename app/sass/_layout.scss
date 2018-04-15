@@ -48,6 +48,7 @@
 }
 
 .detail {
+  font-size: 1.4rem;
   display: flex;
   padding: 4.5rem;
   background-color: var(--color-grey-light-2);
@@ -55,7 +56,6 @@
 }
 
 .description {
-  font-size: 1.4rem;
   background-color: #fff;
   box-shadow: var(--shadow-light);
   padding: 3rem;
@@ -64,6 +64,9 @@
 }
 
 .user-reviews {
-  background-color: yellowgreen;
   flex: 1; // occupy remaining space 40%
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; // fix button from stretching
 }
