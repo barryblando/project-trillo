@@ -8,6 +8,8 @@ Your all-in-one booking app
 
 - Advanced CSS and SASS
 
+- DESKTOP APPROACH
+
 - Animations without Javascript
 
 - Flexbox-based Layout.
@@ -40,5 +42,3 @@ Your all-in-one booking app
     <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
   </svg>
 ```
-
-## Flexbox Basics [To be updated...]

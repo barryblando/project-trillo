@@ -7,6 +7,12 @@
 
   // Test
   min-height: 50rem;
+
+  @media only screen and (max-width: $bp-largest) {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 .header {
@@ -18,10 +24,20 @@
   display: flex; // never forget to put this on a parent element
   justify-content: space-between; // space-between in Main Axis left-right
   align-items: center; // center items in Cross Axis top-bottom, so we won't use margin-top
+
+  @media only screen and (max-width: $bp-smallest) {
+    flex-wrap: wrap; // wrap if don't have enough space
+    align-content: space-around; // control space between rows
+    height: 11rem;
+  }
 }
 
 .content {
   display: flex; // set parent display to flex
+
+  @media only screen and (max-width: $bp-medium) {
+    flex-direction: column; // Sets direction as column layout in 900px
+  }
 }
 
 .sidebar {
@@ -53,6 +69,14 @@
   padding: 4.5rem;
   background-color: var(--color-grey-light-2);
   border-bottom: var(--line);
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 3rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: column;
+  }
 }
 
 .description {
@@ -61,6 +85,17 @@
   padding: 3rem;
   flex: 0 0 60%;
   margin-right: 4.5rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    padding: 2rem;
+    margin-right: 3rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 2rem;
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
 }
 
 .user-reviews {
