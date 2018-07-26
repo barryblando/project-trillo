@@ -15,6 +15,13 @@ Your all-in-one booking app
 - Flexbox-based Layout.
   - [ [A Visual Guide to CSS3 Flexbox Properties](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties) ]
   - [ [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) ]
+  - [ [Solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/) ]
+  - [ [Basic concepts of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) ]
+
+- If you need some extra practice I highly recommend these games to orient yourself!
+  - [Flexbox Zombies](https://mastery.games/p/flexbox-zombies)
+  - [Flexbox Froggy (Mobile Friendly)](https://flexboxfroggy.com/)
+  - [Flexbox Defense](http://www.flexboxdefense.com/)
 
 - NPM Scripts
 
