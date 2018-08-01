@@ -1,4 +1,4 @@
-# Project-Trillo
+# Project-Trillo [DEMO](https://barryblando.github.io/project-trillo/)
 
 Your all-in-one booking app
 
