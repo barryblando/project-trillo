@@ -5,12 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/barryblando/project-trillo.git",
   "scripts": {
-    "watch:sass": "node-sass app/sass/main.scss app/css/style.css -w",
+    "watch:sass": "node-sass src/sass/main.scss src/css/style.css -w",
     "dev:server": "live-server app",
     "start": "npm-run-all --parallel dev:server watch:sass",
-    "compile:sass": "node-sass app/sass/main.scss app/css/style.comp.css",
-    "prefix:css": "postcss --use autoprefixer -c postcss.config.json app/css/style.comp.css -o app/css/style.prefix.css",
-    "compress:css": "node-sass app/css/style.prefix.css app/css/style.css --output-style compressed",
+    "compile:sass": "node-sass src/sass/main.scss src/css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -c postcss.config.json src/css/style.comp.css -o src/css/style.prefix.css",
+    "compress:css": "node-sass src/css/style.prefix.css src/css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
   "author": "Retr0_0x315 <barryblando@gmail.com>",
